@@ -1,0 +1,70 @@
+{
+    "categories": [
+        {
+            "id": "meja",
+            "name": "Meja",
+            "products": [
+                {
+                    "id": "meja-kerja-001",
+                    "name": "Meja Kerja",
+                    "price": 150000,
+                    "description": "Meja kerja dengan laci penyimpanan",
+                    "image": "meja.jpeg",
+                    "colors": ["white", "brown"],
+                    "dimensions": {
+                        "width": 120,
+                        "depth": 60,
+                        "height": 75
+                    },
+                    "material": "Solid Wood",
+                    "weight": "10",
+                    "stock": 10
+                }
+            ]
+        },
+        {
+            "id": "kursi",
+            "name": "Kursi",
+            "products": [
+                {
+                    "id": "kursi-kantor-001",
+                    "name": "Kursi Kantor",
+                    "price": 250000,
+                    "description": "Kursi kantor dengan fitur ergonomis",
+                    "image": "kursi.jpeg",
+                    "colors": ["black", "gray"],
+                    "dimensions": {
+                        "width": 60,
+                        "depth": 60,
+                        "height": 110
+                    },
+                    "material": "Solid Wood",
+                    "weight": "5",
+                    "stock": 15
+                }
+            ]
+        },
+        {
+            "id": "kursi",
+            "name": "Kursi",
+            "products": [
+                {
+                    "id": "lemari-pakaian-001",
+                    "name": "Kursi Cafe",
+                    "price": 750000,
+                    "description": "Lemari pakaian dengan 2 pintu dan cermin",
+                    "image": "kursicafe.jpg",
+                    "colors": ["brown", "white"],
+                    "dimensions": {
+                        "width": 120,
+                        "depth": 50,
+                        "height": 180
+                    },
+                    "material": "Solid Wood",
+                    "weight": "3",
+                    "stock": 5
+                }
+            ]
+        }
+    ]
+} 
