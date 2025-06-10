@@ -20,16 +20,4 @@ router.put('/:id/listing', productController.updateListingStatus);
 // DELETE (soft delete) produk by id
 router.delete('/:id', productController.deleteProduct);
 
-// // DELETE produk permanen
-// router.delete('/:id/permanent', productController.deletePermanentProduct);
-
-// // PATCH recover produk by id
-// router.patch('/recover/:id', productController.recoverProduct);
-
-// // GET produk yang di-trash (status = 'deleted')
-// router.get('/trash', productController.getTrashProducts);
-
-// (Opsional) Batch update produk (untuk saveChanges)
-// router.put('/update-many', productController.updateManyProducts);
-
 module.exports = router;
